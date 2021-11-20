@@ -1,0 +1,65 @@
+.code-block p{
+    white-space: nowrap; 
+    background-color: #0f0f0f;
+    margin-bottom: 0px;
+    color: honeydew; /** default code colour*/
+    width: fit-content;
+}
+
+div.code-container{
+    background-color: #0f0f0f;
+    margin-top: 0px;
+}
+.key-word{
+    color:orange ;
+}
+
+.annotation{
+    color: #b5b500;
+}
+
+.xml-tag{
+    color: yellow;
+}
+
+.string{
+    color: teal;
+}
+
+.comment{
+    color: gray;
+}
+
+.dev-comment{
+    color: greenyellow;
+}
+
+p.file-name{
+    background-color: ivory;
+    color: red;
+    width: fit-content;
+    margin-bottom: 0px;
+}
+
+.xml-tag{
+    color: #f7f700; 
+}
+
+
+/* code references inside text */
+
+span.code-block{
+    background-color: #0f0f0f;
+    color: honeydew; 
+    width: fit-content;
+    height: auto;
+    border-radius: 2px; 
+}
+
+
+
+span.todo{
+    color: yellow;
+    background-color: black;
+    size: 200px;
+}

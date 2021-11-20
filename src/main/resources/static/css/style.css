@@ -1,0 +1,161 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+  }
+
+
+  /* Footer */
+  .footer {
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    height: auto; 
+    line-height: 60px;
+    background-color: #252525;
+  }
+
+  .logo-container{
+      margin: auto;
+      max-width: 240px;
+  }
+
+  .footer-link{
+     display: block;
+     text-align: center;
+  }
+
+  a.footer-link-title{
+    display: block;
+    text-align: center;
+    text-decoration-line: none;
+    color:#f2f2f4;
+  }
+
+  a:hover.footer-link-title{
+    color:#f2f2f4;
+  }
+
+  a.footer-link{
+      height: 40px;
+      text-decoration-line: none;
+      color:#a0a0a0;
+      
+  }
+
+  a:hover.footer-link{
+    color:#f2f2f4;
+  }
+
+/* Main */
+main{
+    height:fit-content;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    
+}
+
+/* Text */
+
+h4.section-title{
+    text-decoration-line: underline;
+}
+
+/* h1.page-title{} */
+
+.sub-section-title{
+    font-weight: bold;
+}
+
+section{
+    margin-top: 1rem;
+    margin-bottom: 9rem;
+}
+
+.paragraph{
+
+    margin-top: 1rem;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+
+.sub-section{
+    margin-top: 2rem;
+}
+
+.centered{
+    text-align: center;
+}
+
+/* links in text */
+a.text-link{
+    color:#a0a0a0;
+}
+
+a:hover.text-link{
+    color:#f2f2f4;
+}
+
+a:visited.text-link{
+    color:#f2f2f4;
+}
+
+/* images in text */
+div.text-image{
+    height: fit-content;
+    width: 100%;
+}
+
+div.text-image img{
+    width: 100%;
+}
+
+div.text-image p{
+    background-color: ivory;
+    color: red;
+    width: fit-content;
+    margin-bottom: 0px;
+}
+
+/* bottom navigation buttons */
+.nav-button{
+    background-color: lawngreen;
+    color: lightcyan;
+
+    height: 100px;
+    width: 15em;
+
+    border-color: black;
+    border-radius: 12px;
+
+}
+
+button.nav-button:hover{
+    background-color: darkgreen;
+    color: wheat;
+}
+
+button.nav-button:active{
+    background-color: black;
+    color: wheat;
+}
+
+
+/* adverts */
+div.advert-h{
+    width: fit-content;
+    height: 100%;
+}
+
+div.advert-v{
+    width: 100%;
+    height: fit-content;
+
+    margin-bottom: 30px;
+}

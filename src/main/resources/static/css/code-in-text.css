@@ -1,0 +1,39 @@
+.code{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.text-class-name{
+    background-color: black;
+    color: #00b5ff;
+}
+
+.text-annotation{
+    background-color: black;
+    color: #b5b500;
+}
+
+.text-xml-tag{
+    background-color: black;
+    color:coral;
+}
+
+.text-button{
+    background-color: black;
+    color: #F9A012;
+}
+
+.text-file-name{
+    background-color: black;
+    color: #888888cb;
+}
+
+.text-folder-name{
+    background-color: black;
+    color: #80ffb5cb;
+}
+
+.text-interface-name{
+    background-color: black;
+    color: #09ff00cb;
+}
