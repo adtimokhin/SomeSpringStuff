@@ -1,7 +1,7 @@
 
 button.extra-section{
     background-color:transparent;
-    color:#a0a0a0;
+    color:#0e1b48;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -12,7 +12,7 @@ button.extra-section{
 }
 
 button.extra-section:hover{
-    color:#f2f2f4;
+    color:#203c96;
     text-decoration-line: underline;
 }
 
@@ -20,7 +20,8 @@ div.extra-section-content{
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #ccb1b1;
+    background-color: #0e1b48;
+    color: #bfd2cb;
 }
 
     

@@ -1,39 +1,39 @@
 .code{
-    background-color: black;
-    color: blanchedalmond;
+    background-color: #303036;
+    color: #ecfffa;
 }
 
 .text-class-name{
-    background-color: black;
-    color: #00b5ff;
+    /*background-color: #303036;*/
+    color: #1e99d3;
 }
 
 .text-annotation{
-    background-color: black;
+    background-color: #303036;
     color: #b5b500;
 }
 
 .text-xml-tag{
-    background-color: black;
-    color:coral;
+    background-color: #303036;
+    color:#649b28;
 }
 
 .text-button{
-    background-color: black;
+    background-color: #303036;
     color: #F9A012;
 }
 
 .text-file-name{
-    background-color: black;
-    color: #888888cb;
+    /*background-color: #303036;*/
+    color: rgb(164, 97, 15);
 }
 
 .text-folder-name{
-    background-color: black;
-    color: #80ffb5cb;
+    /*background-color: #303036;*/
+    color: rgb(121, 28, 28);
 }
 
 .text-interface-name{
-    background-color: black;
-    color: #09ff00cb;
+    /*background-color: #303036;*/
+    color: #0b8c07;
 }

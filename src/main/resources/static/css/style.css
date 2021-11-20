@@ -6,6 +6,10 @@ html {
     margin-bottom: 60px; /* Margin bottom by footer height */
   }
 
+  body.bdy{
+      background-color: #d6d8d9 !important;
+  }
+
 
   /* Footer */
   .footer {
@@ -62,31 +66,34 @@ main{
 /* Text */
 
 h4.section-title{
-    text-decoration-line: underline;
+    font-weight: bold;
+
 }
 
 /* h1.page-title{} */
 
 .sub-section-title{
-    font-weight: bold;
+    text-decoration-line: underline;
+    font-size: 20px;
+    padding-left: 10px;
 }
 
 section{
     margin-top: 1rem;
-    margin-bottom: 9rem;
+    margin-bottom: 11rem;
 }
 
 .paragraph{
 
-    margin-top: 1rem;
+    margin-bottom: 2rem;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Iowan Old Style, 'Times New Roman', Times, serif;
     font-size: 18px;
 
 }
 
 .sub-section{
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .centered{
@@ -95,15 +102,25 @@ section{
 
 /* links in text */
 a.text-link{
-    color:#a0a0a0;
+    color:#203c96;
 }
 
 a:hover.text-link{
-    color:#f2f2f4;
+    color:#152867;
 }
 
 a:visited.text-link{
-    color:#f2f2f4;
+    color:#0e1b48;
+}
+
+ul.link-list a{
+    color:#203c96;
+}
+ul.link-list a:hover{
+    color:#152867;
+}
+ul.link-list a:visited{
+    color:#0e1b48;
 }
 
 /* images in text */
@@ -114,36 +131,37 @@ div.text-image{
 
 div.text-image img{
     width: 100%;
+    border: 3px solid #152867;
 }
 
 div.text-image p{
-    background-color: ivory;
-    color: red;
+    background-color: #203c96;
+    color: #ecfffa;
     width: fit-content;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 /* bottom navigation buttons */
 .nav-button{
-    background-color: lawngreen;
-    color: lightcyan;
+    background-color: #203c96;
+    color: #ecfffa;
 
     height: 100px;
     width: 15em;
 
-    border-color: black;
+    border-color: #152867;
     border-radius: 12px;
 
 }
 
 button.nav-button:hover{
-    background-color: darkgreen;
-    color: wheat;
+    background-color: #152867;
 }
 
 button.nav-button:active{
-    background-color: black;
-    color: wheat;
+    background-color: #0e1b48;
+    color: #bfd2cb;
 }
 
 
@@ -159,3 +177,9 @@ div.advert-v{
 
     margin-bottom: 30px;
 }
+
+h1{
+    font-family: Palatino bold, serif;
+}
+
+
